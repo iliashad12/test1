@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+        <meta name="author" content="ilia-shad">
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./font.css">
+        <link rel="stylesheet" href="./night-mood.css">        
+        <link rel="stylesheet" href="./style1.css">
+        <link rel="stylesheet" href="./meno.css">
+
+        <title>ilia</title>
+    </head>
+<body>
+    <div class="start-page"></div>
+    <a href="#page1"><div class="up"><img id="up" src="./image/up.png" alt=""></div></a>
+    <div class="header3" id="page1"></div>
+    <header>
+
+        <img  class="logo"  src="./image/logo2.svg" alt="">
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar"><img src="./image/bar-chart.svg" alt=""></label>
+        <label for="#" class="meno-logo"><img src="./image/logo2.svg" alt=""></label>
+        <label for="menu-bar" class="menu-bar2"><img src="./image/False.svg" alt=""></label>
+        <nav class="navbar">
+            <ul class="ul">
+                <li class="first-li">
+                    <form action="./course.html" class="form-meno">
+                        <input type="search" id="search" placeholder="جستجو کن">
+                        <button class="button2"><img src="./image/search-logo.svg" alt=""></button>
+                    </form>
+                </li>
+                <li id="log-in-button"><a href="./log-in.html" class="log-in-button">ورود/ثبت نام</a></li>
+
+                <li><a href="#">دوره ها</a>
+                    <ul>
+                        <li><a href="#" class="low-li-padding">پر بازدید ترین</a>
+                            <ul class="learn">
+                                <li><a class="li-padding" href="#">html</a></li>
+                                <li><a class="li-padding" href="#">css</a></li>
+                                <li><a class="li-padding" href="#">js</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="li-padding" href="./course.html">همه</a></li>
+                    </ul>
+                </li>
+                <li><a class="li-padding" href="#">درباره ما</a></li>
+                <li><a href="#">تماس با ما></a>
+                    <ul>
+                        <li><a class="li-padding" href="#">شماره</a></li>
+                        <li><a class="li-padding" href="#">ایمیل</a></li>
+                    </ul>
+                </li>
+                <li class="toggle-div"> 
+                    <p class="night-mood-position">حالت شب</p>
+                    <div class="toggle-position">                    
+                        <a class="toggle-link" href="./home-night-mood.html">
+                            <div class="toggle"></div>
+                            <script>
+                                const toggleBtn = document.querySelector(".toggle");
+                                toggleBtn.addEventListener("click", () => toggleBtn.classList.toggle("active"));
+                            </script>
+                        </a>
+                    </div>
+                </li>
+                <li><a class="link-padding" href="#">پرسش و پاسخ</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <article class="position">
+
+        <div class="containar-move" id="page1">
+            <div class="containar">
+                <div class="cube">
+                    <div class="cube-face cube-face-front"><img class="cube-face-front-img  padding-image-article1" src="./image/bord1.png" alt=""></div>
+                    <div class="cube-face cube-face-back"><img class="cube-face-back-img padding-image-article1" src="./image/bord2.png" alt=""></div>
+                    <div class="cube-face cube-face-right"><img class="cube-face-right-img padding-image-article1" src="./image/bord3.png" alt=""></div>
+                    <div class="cube-face cube-face-left"><img class="cube-face-left-img padding-image-article1" src="./image/bord4.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="laptop-img"><img id="laptop-image" src="./image/laptop3.svg" alt="laptop"></div>
+        <div class="map-image"><img id="map-image" src="./image/map.png" alt="laptop"></div>
+        <div class="tv-image"><img id="tv-image" src="./image/tv.png" alt="laptop"></div>
+        <div class="first-feature">
+            <div class="box">
+                <div class="featurel border--none">
+                    <div class="featurel--icon"><img class="featurel-icon" src="./image/laptop2.svg" alt="calendar"></div>
+                    <div class="featurel--description2-1 night-mood2">رایگان یاد بگیر !</div>
+                    <div class="featurel--description2  night-mood">آموزش رایگان برنامه نویسی</div>
+                </div>
+                <div class="featurel featurel--reverse">
+                    <div class="featurel--icon1"><img class="featurel-icon" src="./image/laptop2.svg" alt="Instagram"></div>
+                    <div class="featurel--description1-1 night-mood2">نقشه راه</div>
+                    <div class="featurel--description1 night-mood">چطور برنامه نویس بشی؟ </div>
+                </div>
+                <div class="featurel featurel--reverse">
+                    <div class="featurel--icon1"><img class="featurel-icon" src="./image/laptop2.svg" alt="Instagram"></div>
+                    <div class="featurel--description3-1 night-mood2">جاوا tv</div>
+                    <div class="featurel--description3  night-mood">جاوا tv</div>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="developer-image"><img id="developer-image" src="./image/developer.png" alt=""></div>
+            <h2>برنامه نویسی رو از کجا شروع کنم؟</h2>
+            <p class="container2-p ">
+                برنامه‌نویسی ابزاری نوین برای تسلط بر جهان تکنولوژی است. بهترین روش برای فراگیری این علم از پایه و به صورت تخصصی، گذراندن دوره‌های آموزش برنامه نویسی زیر نظر مدرسان کارآزموده است. جاوا زون، تیمی متشکل از مدرسان متخصص می‌باشد و هدفشان آموزش صفر تا صد برنامه نویسی به علاقه‌مندان است. در ضمن بسیاری از دوره‌های موجود در جاوا، رایگان بوده و شما می‌توانید نیمی از مسیر را بدون هیچ هزینه‌ای پیش بروید.
+    
+            </p>
+           <div class="buttom-flex"> 
+                <a href="#"><div class="container2-buttom">بزن بریم</div></a>
+            </div>
+        </div>
+
+    </article>
+    <footer class="footer">           
+        <div class="footer2"></div>
+       <div class="footer-head"><p>  جاوا زون</p></div>
+       <div class="footer-container">
+           <p>جاوا زون، تیمی تشکیل شده از مدرسان متخصص در زمینه‌ی برنامه‌نویسی می‌باشد. این تیم با هدف چشاندن لذت کدنویسی و کمک به افراد علاقه‌مند این علم تشکیل شده است. در جاوا زون دوره‌های آموزش متعددی برای یادگیری تمام زبان‌های برنامه نویسی و مباحث دیگر این علم از جمله فریم ورک ها یا بلاک چین و غیره، وجود دارد. هدف ما در جاوا زون، همواره آموزش صفر تا صد برنامه نویسی به علاقه‌مندان همراه با مسیر یادگیری متفاوت می‌باشد.</p>
+
+       </div>
+       <div class="footer-emailbox">
+           <form action="">
+               <input type="email" class="email-box" placeholder="ایمیلتو وارد کن">
+               <button type="submit" class="button">عضویت در خبرنامه</button>
+           </form>
+       </div>
+       <div class="footer-list1">
+           <ul class="footer-list">
+               <li class="list-1">آموزش رایگان جاوا اسکریپت</li>
+               <li class="list-1">آموزش رایگان پایتون</li>
+               <li class="list-1">آموزش رایگان طراحی وب</li>
+               <li class="list-1">آموزش رایگان سی شارپ c#</li>
+           </ul>
+           <div class="footer-icon">
+               <a href="https://www.instagram.com/ilia_shad" class="footer-instagram"><img src="./image/Instagram.svg" alt="Instagram"></a>
+               <a href="https://t.me/ilia_shad" class="footer-telegram"><img src="./image/telegram.svg" alt="telegram"></a>
+               <a href="https://twitter.com/ilia_shad" class="footer-telegram"><img src="./image/Twitter.svg" alt="telegram"></a>
+           </div>
+       </div>
+       <div class="copy-right"><p>&copy; 2022 ilia_shad</p></div>
+   </footer>
+</body>
+</html>
