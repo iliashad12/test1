@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+        <meta name="author" content="ilia-shad">
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./font.css">
+        <link rel="stylesheet" href="./sign-up-nightmood.css">        
+        <link rel="stylesheet" href="./sign-up.css">
+        <link rel="stylesheet" href="./meno.css">
+
+
+        <title>ilia</title>
+    </head>
+    <body>
+        <div class="background-loader">
+            <div class="loader">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="header3" id="page1"></div>
+        <header>
+    
+            <img  class="logo"  src="./image/logo2.svg" alt="">
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar"><img src="./image/bar-chart.svg" alt=""></label>
+            <label for="#" class="meno-logo"><img src="./image/logo2.svg" alt=""></label>
+            <label for="menu-bar" class="menu-bar2"><img src="./image/False.svg" alt=""></label>
+            <nav class="navbar">
+                <ul class="ul">
+                    <li class="first-li">
+                        <form action="./course.html" class="form-meno">
+                            <input type="search" id="search" placeholder="جستجو کن">
+                            <button class="button2"><img src="./image/search-logo.svg" alt=""></button>
+                        </form>
+                    </li>
+                    <li id="log-in-button"><a href="./log-in.html" class="log-in-button">ورود/ثبت نام</a></li>
+                    <li><a href="./index.html" class="li-padding">خانه</a></li>
+                    <li><a href="#">دوره ها</a>
+                        <ul>
+                            <li><a href="#" class="low-li-padding">پر بازدید ترین</a>
+                                <ul class="learn">
+                                    <li><a class="li-padding" href="#">html</a></li>
+                                    <li><a class="li-padding" href="#">css</a></li>
+                                    <li><a  class="li-padding"href="#">js</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="li-padding" href="./course.html">همه</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="li-padding" href="#">درباره ما</a></li>
+                    <li><a href="#">تماس با ما></a>
+                        <ul>
+                            <li><a class="li-padding" href="#">شماره</a></li>
+                            <li><a class="li-padding" href="#">ایمیل</a></li>
+                        </ul>
+                    </li>
+                    <li class="toggle-div"> 
+                        <p class="night-mood-position">حالت شب</p>
+                        <div class="toggle-position">                    
+                            <a class="toggle-link" href="./sign-up-nightnood.html">
+                                <div class="toggle"></div>
+                                <script>
+                                    const toggleBtn = document.querySelector(".toggle");
+                                    toggleBtn.addEventListener("click", () => toggleBtn.classList.toggle("active"));
+                                </script>
+                            </a>
+                        </div>
+                    </li>
+                    <li><a class="link-padding" href="#">پرسش و پاسخ</a></li>
+    
+                </ul>
+            </nav>
+        </header>
+        <div class="background">
+            <h2 class="first-label"> ساخت حساب کاربری</h2>
+            <form action="" class="form-flex">
+                <label for="email" class="email-label">ایمیل</label>
+                <input type="email" id="email" placeholder=" ایمیل را وارد کنید">
+                <label for="number" class="number-label">شماره همراه</label>
+                <input type="number" id="number" placeholder="09123456789">
+                <label for="password" class="password-label">کلمه عبور</label>
+                <input type="password" id="password" placeholder="******">
+                <label for="password" class="password-label">تکرار کلمه عبور</label>
+                <input type="password" id="password" placeholder="******">
+                <div class="bot"></div>
+                <!-- <iframe class="im-not-bot" src="https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lcb1AEbAAAAAF-R6h3yNnRSJ_K5PG1ebupv2--y&co=aHR0cHM6Ly9jb2RleWFkLmNvbTo0NDM.&hl=fa&v=gWN_U6xTIPevg0vuq7g1hct0&size=normal&cb=6p2bwlf89fle" frameborder="1"></iframe> -->
+                <button class="buttom-flex"> 
+                    <a href="#"><div class="login-buttom">عضویت در سایت</div></a>
+                </button>
+            </form>
+            <div class="sign-up">
+                <div class="line1"></div>
+                <p class="sign-up-label">قبلا ثبت نام کرده اید ؟</p>
+                <div class="line2"></div>
+            </div>
+            <div class="sign-up-link-flex">
+                <a class="sign-up-link" href="./log-in.html"><p>ورود به حساب</p></a>
+            </div>
+        </div>
+
+        <footer class="footer">           
+            <div class="footer2"></div>
+           <div class="footer-head"><p>  جاوا زون</p></div>
+           <div class="footer-container">
+               <p>جاوا زون، تیمی تشکیل شده از مدرسان متخصص در زمینه‌ی برنامه‌نویسی می‌باشد. این تیم با هدف چشاندن لذت کدنویسی و کمک به افراد علاقه‌مند این علم تشکیل شده است. در جاوا زون دوره‌های آموزش متعددی برای یادگیری تمام زبان‌های برنامه نویسی و مباحث دیگر این علم از جمله فریم ورک ها یا بلاک چین و غیره، وجود دارد. هدف ما در جاوا زون، همواره آموزش صفر تا صد برنامه نویسی به علاقه‌مندان همراه با مسیر یادگیری متفاوت می‌باشد.</p>
+    
+           </div>
+           <div class="footer-emailbox">
+               <form action="">
+                   <input type="email" class="email-box" placeholder="ایمیلتو وارد کن">
+                   <button type="submit" class="button">عضویت در خبرنامه</button>
+               </form>
+           </div>
+           <div class="footer-list1">
+               <ul class="footer-list">
+                   <li class="list-1">آموزش رایگان جاوا اسکریپت</li>
+                   <li class="list-1">آموزش رایگان پایتون</li>
+                   <li class="list-1">آموزش رایگان طراحی وب</li>
+                   <li class="list-1">آموزش رایگان سی شارپ c#</li>
+               </ul>
+               <div class="footer-icon">
+                   <a href="https://www.instagram.com/ilia_shad" class="footer-instagram"><img src="./image/Instagram.svg" alt="Instagram"></a>
+                   <a href="https://t.me/ilia_shad" class="footer-telegram"><img src="./image/telegram.svg" alt="telegram"></a>
+                   <a href="https://twitter.com/ilia_shad" class="footer-telegram"><img src="./image/Twitter.svg" alt="telegram"></a>
+               </div>
+           </div>
+           <div class="copy-right"><p>&copy; 2022 ilia_shad</p></div>
+       </footer>
+    </body>
+</html>
