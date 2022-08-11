@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "vazir";
+    src: url(./fonts/webfonts/Vazirmatn-Thin.woff2) format("woff2");
+    font-weight: 100;
+}
+@font-face {
+    font-family: "vazir";
+    src: url(./fonts/webfonts/Vazirmatn-Regular.woff2) format("woff2");
+    font-weight: 200;
+}
+@font-face {
+    font-family: "vazir";
+    src: url(./fonts/webfonts/Vazirmatn-Medium.woff2) format("woff2");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "vazir";
+    src: url(./fonts/webfonts/Vazirmatn-Light.woff2) format("woff2");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "vazir";
+    src: url(./fonts/webfonts/Vazirmatn-Bold.woff2) format("woff2");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "vazir";
+    src: url(./fonts/webfonts/Vazirmatn-ExtraBold.woff2) format("woff2");
+    font-weight: 800
+}
+@font-face {
+    font-family: "vazir"; 
+    src: url(./fonts/webfonts/Vazirmatn-Black.woff2) format("woff2");   
+    font-weight: bolder;
+}
+@font-face {
+    font-family: "kood"; 
+    src: url(./fonts/BKoodkBd.ttf);   
+    font-weight:100;
+}
+@font-face {
+    font-family: "kood2"; 
+    src: url(./fonts/BKoodakO.ttf);   
+    font-weight:100;
+}
